@@ -1,4 +1,4 @@
-# voyage-project-tier1-color-explorer
+# voyage-project-tier2-color-explorer
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ implement to enhance this app, if time permits.
 - [ ] This is a purely frontend application. No backend is required.
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app.
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
-- [ ] The app should facilitate connectivity to the OpenAI API for color recognition.
+- [ ] The app should facilitate connectivity to the OpenAI API for color recommendations.
 - [ ] Useful links and resources:
   - [Wiki about Color Scheme](https://en.wikipedia.org/wiki/Color_scheme)
   - [OpenAI API docs](https://platform.openai.com/docs/introduction)
@@ -76,16 +76,16 @@ implement to enhance this app, if time permits.
     - [ ] Develop a single-page application (SPA) or its equivalent to deliver intuitive color recommendation functionality to users.
 
 - Data Capture and Processing
-    - [ ] Integrate a color picker library or create a custom color picker allowing users to choose colors from a predefined palette.
-    - [ ] Incorporate a mechanism to prompt users for the context in which they intend to use the selected colors. Include this context information in the prompt sent to the OpenAI API for more tailored color recommendations.
+    - [ ] Integrate a color picker library or create a custom color palette allowing users to choose color from a predefined palette.
+    - [ ] Incorporate a mechanism to prompt users for the context in which they intend to use the selected color. Include this context information in the prompt sent to the OpenAI API for more tailored color recommendations.
 
 - API Connectivity and Response Handling
     - [ ] Establish connectivity to the OpenAI API for color analysis via provided API key.
     - [ ] Send the captured color data and the context to the OpenAI API as part of the prompt.
     - [ ] When sending color data to the OpenAI API, include it in the prompt along with a request for color recommendations. Ensure it also requests color codes with their respective names for the recommended colors. Example prompt:
       - "Suggest color recommendations based on the [selected color] and [context]"
-      - "Color recs [selected color][context], provide colors code and explanation"
-      - "Suggest a compatible colors based on the [selected color] and [context]. Display colors code and descriptions"
+      - "Color recomemmendations [selected color][context], provide color codes and explanation"
+      - "Suggest compatible colors based on the [selected color] and [context]. Display color codes and descriptions"
     - [ ] Ensure robust error handling for API connectivity, data formatting, and response processing.
     - [ ] Retrieve and process the response from the OpenAI API.
     - [ ] Capture the color codes and text description provided by the OpenAI API in the response.
@@ -105,7 +105,7 @@ implement to enhance this app, if time permits.
 ### Extras (Not Required)
 
 - Color Capture and Processing
-    - [ ] Utilize an integrated library or create a custom color picker for visually representing color recommendation responses.
+    - [ ] Utilize an integrated library or create a custom color palette for visually representing color recommendation responses.
     - [ ] Allow users to select multiple colors for analysis, enabling them to compare and contrast recommendations for different color combinations.
     - [ ] Implement a feature that suggests complementary, analogous, or triadic colors based on the user's selected color, helping them create harmonious color schemes.
     - [ ] Integrate a tool to simulate how color choices might appear to users with different types of color vision deficiencies, ensuring inclusivity in design decisions.
@@ -113,8 +113,7 @@ implement to enhance this app, if time permits.
 ## Acceptance Criteria
 
 - Data Capture and Processing
-    - [ ] Users can accurately select colors using the integrated color picker library or a custom color picker.
-    - [ ] The selected color codes and context are correctly formatted and included in the prompt sent to the OpenAI API for analysis.
+    - [ ] Users can accurately select color using the integrated color picker library or a custom color palette.
     - [ ] The selected color code and context are correctly formatted and included in the prompt sent to the OpenAI API for analysis.
 
 - API Connectivity and Response Handling
