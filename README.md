@@ -16,11 +16,11 @@ Let's consider the importance of colors in our lives. These bright shades not on
 
 During this voyage, you will be building a color matching app. The app is intended to serve as a personal consultant, helping users find harmonious color combinations for various purposes, including outfit coordination, interior design, website design, graphic design projects, and more.
 
-- Color theory example site
+- [Color theory example site](https://color.adobe.com/create/color-wheel)
 
 ![Color theory example site](./assets/colorwheel2.png)
 
-- Color theory example site
+- [Color theory example site](https://www.canva.com/colors/color-wheel/)
 
 ![Color theory example site](./assets/colowheel1.png)
 
